@@ -58,7 +58,7 @@ Socket programming finds applications in various domains, including web developm
 Done By: Jai Harish R
 Reg No: 24006817
 ```
-### server
+### client
 ```python
 import socket
 s=socket.socket()
@@ -67,7 +67,7 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
-### client
+### server
 ```python
 import socket
 from datetime import datetime
@@ -86,11 +86,13 @@ c.close()
 ## Output
 
 ### server
-<img width="1339" height="1031" alt="image" src="https://github.com/user-attachments/assets/e2149c98-f8ff-45c7-9eaf-1ee624e9a689" />
+<img width="1472" height="1029" alt="image" src="https://github.com/user-attachments/assets/bb073c62-312d-48cf-9159-0011a6105a07" />
+
 
 
 ### client
-<img width="1343" height="961" alt="image" src="https://github.com/user-attachments/assets/5096e685-bd90-4bb0-89c1-53589c3719af" />
+<img width="1483" height="1027" alt="image" src="https://github.com/user-attachments/assets/e2cf30a1-d1a5-4e99-b8f7-e705e9e7ef46" />
+
 
 
 ## Result:
